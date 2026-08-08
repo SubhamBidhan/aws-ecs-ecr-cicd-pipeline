@@ -56,11 +56,9 @@ flowchart LR
 ## 📂 Project Structure
 
 ```
-website/
+├── README.md
 ├── Dockerfile          # Builds nginx image with static site content
-├── buildspec.yml       # CodeBuild instructions (build, tag, push to ECR)
-├── index.html          # Website content
-└── ...                 # Other static assets
+└── buildspec.yml       # CodeBuild instructions (build, tag, push to ECR)
 ```
 
 ---
