@@ -163,9 +163,3 @@ To avoid ongoing AWS charges, tear down resources in this order:
 - Load balancing and auto-scaling ECS services based on CPU metrics
 - Wiring a full CI/CD pipeline: GitHub → CodeBuild → ECR → CodePipeline → ECS
 - IAM least-privilege role design for CodeBuild/ECS integrations
-
----
-
-## 📄 License
-
-This project is for learning/demo purposes. Feel free to fork and adapt.
